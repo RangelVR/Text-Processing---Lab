@@ -6,8 +6,8 @@ StringBuilder sb = new StringBuilder();
 
 foreach (var word in input)
 {
-	for (int i = 0; i < word.Length; i++)
-	{
+    for (int i = 0; i < word.Length; i++)
+    {
         sb.Append(word);
     }
 }
